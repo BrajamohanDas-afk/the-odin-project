@@ -1,0 +1,30 @@
+/* rule 1 */
+/* .subsection {
+  color: blue;
+} */
+
+/* rule 2 */
+/* .main .list{
+  color: red;
+} */
+/* rule 3 */
+/* #subsection {
+    color: blue;
+  } */
+  /* rule 4 */
+  #subsection {
+    background-color: yellow;
+    color: blue;
+  }
+  
+  /* rule 5*/
+  .main #subsection {
+   color: red;
+  }
+
+/* as i can see that there is more class in rule 2 so the cascade will take the rule */
+
+/* on the other hand there is a ID in rule 3 so the cascade will take rule 3 because ID > CLASS */
+
+/* now rule 4 and 5 we can see that in rule 4 and 5 the common is the ID so the cascade will check for if ther are any other ID or CLASS is present then if there is so it will take the heigest one */
+

@@ -1,0 +1,52 @@
+/* universal selector */
+
+* {
+    color: purple;                                  
+}
+
+/* type selector */
+
+div {
+    color: black;
+  }
+
+#title{
+    color: skyblue;
+}
+
+/* grouping selector */
+
+.read, 
+.unread {
+    color: red;
+    background-color: yellow;
+}
+
+/* .read{
+   
+}
+
+.unread{
+   
+} */
+
+/* chaining selector */
+
+.subsection.header {
+    color: red;
+  }
+  
+.subsection#preview {
+    color: blue;
+  }
+
+/* Descendant combinator */
+.ancestor p{
+  color: blue;
+}
+.ancestor .contents p {
+  color: blue;
+}
+body > .contents {
+ color: blue;
+}

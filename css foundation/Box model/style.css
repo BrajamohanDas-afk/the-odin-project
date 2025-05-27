@@ -1,0 +1,19 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+}
+
+.box-one{
+  background-color: #eb5757;
+  border: 10px solid #9b51e0;
+  padding: 10px;
+  margin: 10px;
+  
+
+}
+
+.box-two{
+  background-color: #2d9cdb;
+  border: 0px solid #27ae60;
+}
