@@ -39,16 +39,24 @@ body {
 
   .hero1 {
     color: white;
+    display: flex;
     padding: 50px 100px;
     font-size: 48px;
-    width: 900;
-    margin-right: 700px;
+    justify-content: space-between;
+    
+    
   }
   .hero1 p{
     font-size: 18px;
     font-style: italic;
     flex: 0;
   }
+
+  .img{
+    width: 10px;
+    height:10px;
+  }
+  
   
   
 
