@@ -2,61 +2,129 @@ body {
     background: black;
     margin: 0;
     padding: 0;
-  }
-  
-  .header {
+}
+
+.header {
     height: 120px;
-    border: 50px  ;
-  }
-  
-  .content {
+    border: 50px;
+}
+
+.content {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 100px;
     color: #F5DEB3;
-  }
-  
-  ul {
+}
+
+ul {
     display: flex;
     gap: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
-  }
-  
-  a {
+    font-style: italic;
+}
+
+a {
     text-decoration: none;
-    color: white;
+    color:#F5DEB3;
     font-size: 18px;
-  }
-  .logo {
+}
+.logo {
     font-size: 24px;
     font-style: italic;
 
-  }
+}
 
-  .hero1 {
+.hero1 {
     color: white;
     display: flex;
     padding: 50px 100px;
     font-size: 48px;
     justify-content: space-between;
-    
-    
-  }
-  .hero1 p{
+    font-style: italic;
+
+}
+.hero1 p {
     font-size: 18px;
     font-style: italic;
     flex: 0;
-  }
+}
 
-  .img{
-    width: 10px;
-    height:10px;
-  }
-  
-  
-  
+.img img{
+    width: 500px;
+    height: 270px;
+}
 
+.text{
+    width: 700px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #F5DEB3;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+.hero1 .text div{
+  color: #FFCCCB;
+}
+
+.hero2{
+  color: white;
+  padding: 50px 100px;
+  font-size: 48px;
+  font-style: italic;
+  padding-top: 0;
+}
+.hero2 .container .info img{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 52px;
+
+}
+.info{
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+             
+  
+}
+.title{
+  color:  #F5DEB3;
+  text-align: center;
+  padding: 50px;
+}
+.info .text {
+    width: 100%;
+    padding: 0;
+    font-size: 16px;
+    color:  #F5DEB3;
+}
+
+.hero2 .img {
+  border: 3px solid #007BFF; 
+  border-radius: 15px;      
+  padding: 20px; 
+}
