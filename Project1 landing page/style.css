@@ -29,7 +29,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:#F5DEB3;
+    color:white;
     font-size: 18px;
 }
 .logo {
@@ -39,7 +39,7 @@ a {
 }
 
 .hero1 {
-    color: white;
+    color: #F5DEB3;
     display: flex;
     padding: 50px 100px;
     font-size: 48px;
@@ -66,7 +66,7 @@ a {
     display: inline-block;
     padding: 10px 20px;
     background-color: black;
-    color: #F5DEB3;
+    color: white;
     text-align: center;
     text-decoration: none;
     border: none;
@@ -99,8 +99,6 @@ a {
 .container{
   display: flex;
   justify-content: space-evenly;
-  gap: 52px;
-
 }
 .info{
   width: 220px;
@@ -112,14 +110,14 @@ a {
   
 }
 .title{
-  color:  #F5DEB3;
+  color: white;
   text-align: center;
   padding: 50px;
 }
 .info .text {
     width: 100%;
     padding: 0;
-    font-size: 16px;
+    font-size: 20px;
     color:  #F5DEB3;
 }
 
@@ -128,3 +126,46 @@ a {
   border-radius: 15px;      
   padding: 20px; 
 }
+.hero3 .upper-text{
+  color: #F5DEB3;
+  padding: 50px 200px;
+  font-size: 35px;
+  font-style: italic;
+  padding-bottom: 0px;
+}
+
+.hero3 .lower-text{
+  color: white;
+  font-style: italic;
+  font-size: 30px;
+  padding: 50px 300px;
+  padding-top: 0px;
+  display: flex;
+  justify-content: end;
+}
+
+.hero4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007BFF;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: auto;
+}
+.text p {
+  margin: 0;
+}
+.button {
+  color: white;
+  padding: 8px 30px;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+  
