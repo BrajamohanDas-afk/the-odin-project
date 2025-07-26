@@ -29,7 +29,7 @@ ul {
 
 a {
     text-decoration: none;
-    color:white;
+    color:#abe0df;
     font-size: 18px;
 }
 .logo {
@@ -66,7 +66,7 @@ a {
     display: inline-block;
     padding: 10px 20px;
     background-color: black;
-    color: white;
+    color: #abe0df;
     text-align: center;
     text-decoration: none;
     border: none;
@@ -84,14 +84,14 @@ a {
 }
 
 .hero2{
-  color: white;
+  color: #abe0df;
   padding: 50px 100px;
   font-size: 48px;
   font-style: italic;
   padding-top: 0;
 }
 .hero2 .container .info img{
-  background-color: white;
+  background-color: #abe0df;
   width: 100px;
   height: 100px;
   margin-bottom: 15px;
@@ -110,7 +110,7 @@ a {
   
 }
 .title{
-  color: white;
+  color: #abe0df;
   text-align: center;
   padding: 50px;
 }
@@ -135,7 +135,7 @@ a {
 }
 
 .hero3 .lower-text{
-  color: white;
+  color: #abe0df;
   font-style: italic;
   font-size: 30px;
   padding: 50px 300px;
@@ -146,26 +146,37 @@ a {
 
 .hero4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: #007BFF;
-  color: white;
+  color: #abe0df;
   padding: 20px 30px;
   border-radius: 8px;
   max-width: 700px;
   margin: auto;
+  margin-bottom: 60px;
 }
 .text p {
   margin: 0;
 }
 .button {
-  color: white;
+  color: #abe0df;
   padding: 8px 30px;
-  border: 1px solid white;
+  border: 1px solid #abe0df;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
   width: 200px;
   text-align: center;
 }
+.footer{
+  background-color:#abe0df;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  
+}
+
   
